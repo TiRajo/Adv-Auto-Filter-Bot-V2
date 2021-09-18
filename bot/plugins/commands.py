@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Exit, url="https://t.me/c/1266463425/14"
+                                    'Exit', url="https://t.me/c/1266463425/14"
                                 )
                         ]
                     ]
