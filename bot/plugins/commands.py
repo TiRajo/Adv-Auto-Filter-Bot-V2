@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    InlineKeyboardButton('Close 🔐', callback_data='close')
+                                    'Back to group', url="https://t.me/c/1266463425"
                                 )
                         ]
                     ]
