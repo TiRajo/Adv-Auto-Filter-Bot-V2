@@ -47,12 +47,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Group', url='https://t.me/1266463425/14'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/joinchat/9zxnFXgIHDw2MjFl')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/9zxnFXgIHDw2MjFl')
-    ],[
-        InlineKeyboardButton('Help ⚙', url='https://t.me/joinchat/9zxnFXgIHDw2MjFl')
+        InlineKeyboardButton('Open Group', url='https://t.me/c/1266463425/14'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
