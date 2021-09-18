@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Back', url="https://t.me/CrazyBotsz"
+                                    InlineKeyboardButton('Close 🔐', callback_data='close')
                                 )
                         ]
                     ]
