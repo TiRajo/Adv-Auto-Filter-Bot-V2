@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Back to group', url="https://t.me/joinchat/9zxnFXgIHDw2MjFl"
+                                    'Exit, url="https://t.me/c/1266463425/14"
                                 )
                         ]
                     ]
